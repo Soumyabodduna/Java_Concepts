@@ -3,7 +3,7 @@ package com.java.inheritance;
 //fields
     public int oil;
     public int onion;
-    private int chicken;
+    public int chicken;
     public int chilli;
     public int salt;
     public int masala;
