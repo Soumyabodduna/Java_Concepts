@@ -3,8 +3,8 @@ package com.java.inheritance;
 //fields
     public int oil;
     public int onion;
-    public int chicken;
     public int chilli;
+     public int chicken;
     public int salt;
     public int masala;
     // chicken class has one constructor
