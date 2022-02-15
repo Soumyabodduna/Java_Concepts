@@ -3,16 +3,18 @@ package com.java.inheritance;
 //fields
     public int oil;
     public int onion;
+    private int chicken;
     public int chilli;
     public int salt;
     public int masala;
     // chicken class has one constructor
-    public Chicken(int oil, int onion, int chilli, int salt, int masala) {
+    public Chicken(int oil, int onion , int chilli, int salt, int masala) {
         this.oil = oil;
         this.onion = onion;
         this.chilli = chilli;
         this.salt = salt;
         this.masala = masala;
+
     }
     public void spicyCurry(int increment){
         chilli+=increment;
