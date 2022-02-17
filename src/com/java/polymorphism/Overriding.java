@@ -12,7 +12,13 @@ class Vegetable {
 class Brinjal extends Vegetable{
 
     // Method
-    void talk() { System.out.println("I am Brinjal and my color is Green"); }
+
+    void talk()
+
+    {
+        super.talk();//super keyword call the super class method
+        System.out.println("I am Brinjal and my color is Green");
+    }
 }
 
 
@@ -30,10 +36,9 @@ public class Overriding {
     public static void main(String[] args)
     {
 
-       Vegetable v = new Vegetable();
-        Vegetable  b = new Brinjal();
-        Vegetable  m = new Mirchi();
-        v.talk();
+
+        Vegetable b = new Brinjal();//it will overide the parent class method
+        Vegetable m = new Mirchi();
 
 
         b.talk();

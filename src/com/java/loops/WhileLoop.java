@@ -3,17 +3,16 @@ package com.java.loops;
 public class WhileLoop {
     public static void main(String args[])
     {
-        int x = 1, sum = 0;
+        int x = 1;//initial value
 
-        // Exit when x becomes greater than 4
-        while (x <= 50) {
-            // summing up x
-            sum = sum + x;
 
-            // Increment the value of x for
-            // next iteration
-            x++;
+        while (x <= 5) { //condition
+
+            System.out.println("DXC");
+            x++;  // Increment the value of x for  next iteration
+
+
         }
-        System.out.println("Summation: " + sum);
+
     }
 }
