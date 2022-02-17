@@ -1,17 +1,17 @@
 package com.java.interfaces;
- interface Cat {
+ interface Animal {
     void feelingHungry(int a);
     void huntRat(int a);
     void notHungry(int a);
 
 }
- class Dog implements Cat {
+ class Dog implements Animal {
     int hunt;
     int eat;
-    @Override
+    @Override//to implement the methds
     public void feelingHungry(int huntAndEat) {
 
-        eat = huntAndEat;
+        eat = huntAndEat;//body
     }
 
     @Override
@@ -33,7 +33,7 @@ package com.java.interfaces;
     }
 }
 
-public class Animal {
+public class Hunting {
 
        public static void main(String[] args) {
            Dog dog = new Dog();

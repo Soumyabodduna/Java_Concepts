@@ -8,7 +8,7 @@ public class StackDemo {
         Stack<String> stack = new Stack<String>();
         stack.push("Love");
         stack.push("Hyderabad");
-        stack.push("Biryani");
+        stack.push("Biryani");//lifo
         // Iterator for the stack
         Iterator<String> itr = stack.iterator();
 

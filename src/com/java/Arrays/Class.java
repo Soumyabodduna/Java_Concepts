@@ -1,5 +1,5 @@
 package com.java.Arrays;
-class Student{
+class Student{//we can only give one data type in arrays
     int studentRollNo;
     String studentName;
     int studentTotalMarks;

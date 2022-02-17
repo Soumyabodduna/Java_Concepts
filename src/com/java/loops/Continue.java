@@ -10,7 +10,7 @@ public class Continue {
             if (i == 6 || i == 11) {
 
                 // Using continue statement to skip the
-                // execution of loop when i==10 or i==12
+                // execution of loop when i==6 or i==11
                 continue;
             }
             // Printing elements to show continue statement

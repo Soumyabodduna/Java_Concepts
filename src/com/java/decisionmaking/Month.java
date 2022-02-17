@@ -3,7 +3,7 @@ package com.java.decisionmaking;
 public class Month {
 
         public static void main(String args[]) {
-            int month = 6;
+            int month = 6;//it will directly go to case 6
             switch (month) {
                 case 1:
                     System.out.println("January");

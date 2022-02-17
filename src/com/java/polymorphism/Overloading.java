@@ -2,6 +2,7 @@ package com.java.polymorphism;
 
 
 class Arithimatic {
+    //multiple methods with same name but diff parameters
     // Method with 2 integer parameters
     static int Multiply(int a, int b)
     {
