@@ -1,30 +1,31 @@
 package com.java.inheritance;
 class Tenth{
-    public void dancing()
+    public void perform()
     {
-        System.out.println("Nacho Nacho");
+        System.out.println("Dance");
     }
 }
 class Ninenth extends Tenth{
-    public void Singing()
+    public void perform()
     {
-        System.out.println("Bola chudiya");
+        System.out.println("Sing");
     }
 }
-class Eigth extends Ninenth {
-    public void drama()
+class Eigth extends Tenth {
+    public void perform()
     {
-        System.out.println("Doctor and Patient");
+        System.out.println("Skit");
     }
 
 
     public static class AnnualDayFunction {
         public static void main(String args[]) {
-
-           Eigth c = new Eigth();
-           c.dancing();
-           c.Singing();
-           c.drama();
+            Tenth t = new Tenth();
+            Tenth n = new Ninenth();
+            Tenth e = new Eigth();
+            t.perform();
+            n.perform();
+            e.perform();
 
         }
     }
