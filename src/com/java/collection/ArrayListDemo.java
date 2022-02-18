@@ -12,6 +12,7 @@ public class ArrayListDemo {
         list.add("Kzr");
         list.add("Knr");
         list.add("Nzbd");
+        list.add("Nzbd");//it contain duplicate elements
         System.out.println(list);
 
 
