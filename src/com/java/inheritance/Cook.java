@@ -35,9 +35,6 @@ import org.w3c.dom.ls.LSOutput;
     }
     //toString() method to print info of chicken
 
-
-
-
     @Override
     public String toString() {
         return  (
@@ -49,8 +46,6 @@ import org.w3c.dom.ls.LSOutput;
                 ", masala=" + masala + ","
                 );
     }
-
-
 }
  class Mutton extends Chicken {
     // the Mutton subclass adds one more field
@@ -72,7 +67,6 @@ import org.w3c.dom.ls.LSOutput;
     }
 }
 
-
 public class Cook {
 
            public static void main (String args[]){
@@ -82,9 +76,6 @@ public class Cook {
                // we can also access the members of a superclass.
                //only the object of the subclass is created, not the superclass.
               Mutton m = new Mutton(5,2,10,5,1,5);
-
-
-
 
               m.spicyCurry(1);
               m.notspicyCurry(0);
