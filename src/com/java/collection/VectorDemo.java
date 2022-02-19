@@ -5,7 +5,7 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 public class VectorDemo {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Vector<String> Fruits = new Vector<String>();
         Fruits.addElement("Apple");
         Fruits.addElement("Orange");
@@ -20,7 +20,6 @@ public class VectorDemo {
 
         /*size and capacityIncrement after two insertions*/
         System.out.println("Size after addition of some fruits: "+Fruits.size());
-        int Capacity = Fruits.capacity();
         System.out.println("Capacity after increment is: "+Fruits.capacity());
         System.out.println("clone:" +Fruits.clone());
 

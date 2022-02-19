@@ -10,6 +10,7 @@ public class QueueDemo {
         q.add("Sony");
         q.add("Sanju");
         q.add("Rahul");
+        q.add("Rahul");
         System.out.println("Elements in Queue: " +q);
         System.out.println("Removed Element: " +q.remove());
         System.out.println("Elements in Queue: " +q);
